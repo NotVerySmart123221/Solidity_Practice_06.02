@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get_value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pay",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n_value",
+						"type": "uint256"
+					}
+				],
+				"name": "set_value",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/l3_call.sol": "IContractA"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/l3_call.sol": {
+			"keccak256": "0x801b42c1b7d0aec15d73257ae4f257732edd2e7cfe2f2d3bdd4c9ca076c311e1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2159f3d95e58e9ad8fefa46fb76da91be9b86f604875c5ecb2475e0aaaa0226f",
+				"dweb:/ipfs/Qma9gKFtC2n5pmznABHAoKMWfaN6oXXTZ3RDutrWKGehsN"
+			]
+		}
+	},
+	"version": 1
+}
